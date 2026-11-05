@@ -12,7 +12,7 @@
   <a href="https://github.com/object-digital-passport/specifications/blob/main/SPEC.md">Specification</a> ·
   <a href="https://github.com/object-digital-passport/specifications/wiki">Wiki</a> ·
   <a href="https://github.com/object-digital-passport/specifications/discussions">Discussions</a> ·
-  <a href="https://github.com/object-digital-passport/.github/issues/4">Roadmap</a>
+  <a href="https://github.com/object-digital-passport/specifications/issues/181">Roadmap</a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ A passport combines a readable immutable on-chain card with the hashes of an off
 | **Reference website / Verify** | **Older generation still in use**: website/demo/Verify currently target v0.6 by default according to the protocol release notes. Do **not** rely on them to create or fully verify v0.7 passports until compatibility is confirmed. |
 | **Earlier v0.x generations** | Separate registries, not upgrades: legacy records remain attached to their own chain/address/ABI. They are not migrated to v0.7. |
 | **Apple app and Android NFC companion** | Pre-release projects; functionality and real-hardware validation differ by component (see their READMEs). |
-| **ODP MCP / AI integration** | **Planned**, not released. [Tracking issue](https://github.com/object-digital-passport/.github/issues/2). |
+| **ODP MCP / AI integration** | **Planned**, not released. [Tracking issue](https://github.com/object-digital-passport/odp-mcp/issues/1). |
 
 ## Code and projects
 
@@ -48,6 +48,8 @@ A passport combines a readable immutable on-chain card with the hashes of an off
 |:--|:--|:--|
 | **[specifications](https://github.com/object-digital-passport/specifications)** | **Normative standard:** `SPEC.md`, Solidity contracts, ABIs, schemas, conformance vectors, deployment and offline tools | v0.7 alpha; source of truth |
 | **[object-digital-passport.github.io](https://github.com/object-digital-passport/object-digital-passport.github.io)** | Reference browser app for profiles, issuance and verification | v0.6 site integration; v0.7 migration needed |
+| **[design-kit](https://github.com/object-digital-passport/design-kit)** | Visual identity, print-ready design assets, Tangem card skins and physical labels | Public, early-stage design repository |
+| **[odp-mcp](https://github.com/object-digital-passport/odp-mcp)** | AI integration and guided ODP passport lifecycle via MCP and WalletConnect | Public, planned implementation |
 | **[swift-core](https://github.com/object-digital-passport/swift-core)** | Reusable Swift verification, canonicalization and wallet-crypto building blocks | Early reusable library |
 | **[odp-profile-directory](https://github.com/object-digital-passport/odp-profile-directory)** | Open directory **format**, validator and re-check tooling; example entries are synthetic | Reference implementation, not an official identity authority |
 | **[odp-directory-v0.6](https://github.com/object-digital-passport/odp-directory-v0.6)** | Independently curated real-profile directory for the **v0.6** generation | Generation-specific; not a v0.7 registry |
@@ -59,7 +61,7 @@ Private repositories are accessible only to authorized collaborators. Their pres
 
 ## Roadmap and contributing
 
-- **[ODP Product Roadmap](https://github.com/object-digital-passport/.github/issues/4)** — cross-repository tracker for development, UX, physical labels, NFC, Tangem card skins and upcoming AI tools.
+- **[ODP Product Roadmap](https://github.com/object-digital-passport/specifications/issues/181)** — cross-repository tracker for development, UX, physical labels, NFC, Tangem card skins and upcoming AI tools. Design-specific tasks live in [design-kit issues](https://github.com/object-digital-passport/design-kit/issues) and AI integration tasks in [odp-mcp issues](https://github.com/object-digital-passport/odp-mcp/issues).
 - [Physical-object label design](https://github.com/object-digital-passport/specifications/issues/120) · [NFC seal research](https://github.com/object-digital-passport/specifications/issues/119).
 - [Issues in the specification repository](https://github.com/object-digital-passport/specifications/issues) · [Discussions](https://github.com/object-digital-passport/specifications/discussions) · [Contributing](https://github.com/object-digital-passport/specifications/blob/main/docs/CONTRIBUTING.md).
 
